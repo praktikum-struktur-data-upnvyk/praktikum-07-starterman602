@@ -155,7 +155,7 @@ void postorder(const Node* root) {
 //     clear(root);              // aman, tidak terjadi apa-apa
 // =============================================================================
 void clear(Node*& root) {
-    if (root = NULL) {
+    if (root == NULL) {
         return;
     }
 
